@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer
       className="relative text-[#f5d492] py-10 px-6 md:px-16 bg-cover bg-center"
-      style={{ backgroundImage: "url('/ewf.jpg')" }} // <-- replace with your image path
+      style={{ backgroundImage: "url('./ewf.jpg')" }} // <-- replace with your image path
     >
       {/* Overlay for better contrast */}
       <div className="absolute inset-0 bg-black/80"></div>
