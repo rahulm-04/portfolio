@@ -1,6 +1,6 @@
 import React from "react";
 import { Mail, Phone, Github, Linkedin } from "lucide-react";
-import bgImage from '../assets/ewf.jpg';
+import bgImage from '.';
 
 export default function Hero() {
   return (
