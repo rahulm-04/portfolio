@@ -50,7 +50,7 @@ export default function Hero() {
             Get In Touch
           </a>
           <a
-            href="/res.pdf"
+            href="/portfolio/res.pdf"
             className="bg-gray-800 border border-gray-600 px-6 py-3 rounded-lg shadow-lg font-semibold hover:bg-gray-700 transition"
             download="Rahul_Resume.pdf"
           >
