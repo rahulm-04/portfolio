@@ -5,20 +5,15 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-900 text-white text-center px-6 relative"
+      className="min-h-screen flex flex-col justify-center items-center text-white text-center px-6 relative bg-cover bg-center"
+      style={{
+        backgroundImage: "url('/portfolio/ewf.jpg')",
+      }}
     >
-      {/* Background Image */}
-      <div className="absolute inset-0">
-        <img
-          src="/portfolio/ewf.jpg"
-          alt="background"
-          className="w-full h-full object-cover"
-        />
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-gray-900/90" />
-      </div>
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-gray-900/90"></div>
 
-      {/* Availability Badge - placed at very top */}
+      {/* Availability Badge */}
       <div className="absolute top-2 md:top-20 bg-rose-600 text-white px-5 py-1 rounded-full text-sm shadow-lg animate-pulse z-20">
         Available for Freelance Projects
       </div>
