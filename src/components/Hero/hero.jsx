@@ -1,6 +1,5 @@
 import React from "react";
 import { Mail, Phone, Github, Linkedin } from "lucide-react";
-import bgImage from '.';
 
 export default function Hero() {
   return (
@@ -11,7 +10,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src={bgImage}
+          src="/ewf.jpg"
           alt="background"
           className="w-full h-full object-cover"
         />
