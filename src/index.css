@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* in globals.css */
+html {
+  scroll-behavior: smooth;
+}
